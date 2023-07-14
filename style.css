@@ -1,0 +1,149 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  
+}
+
+
+.top-container {
+  background-image: url(./assets/Background-img.jpg);
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 220px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  height: 236px;
+  width: 239px;
+  right: 48px;
+  bottom: 280px;
+}
+.pfp{
+  border-radius: 50%;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Satisfy', cursive;
+}
+h2 {
+  color: #ffffff;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 2.8rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+span{
+  color: rgba(255, 255, 255, 0.600);
+}
+
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+
+.middle-container {
+  margin: 100px 0;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.chilli-img {
+  width: 50%;
+  margin-left: 30px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-image: url(./assets/footer.jpg);
+  padding: 50px 0 20px;
+}
+a {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skills{
+  color: rgb(58, 58, 58);
+  font-size: 40px;
+  font-family: 'Satisfy', cursive;
+}
+
+.skills-grid{
+
+  display: grid;
+
+}
+.bootstrap{
+height: 360px;
+width: 380px;
+border-radius: 20px;
+display: block;
+margin:80px auto 0 auto ;
+
+}
+
+.mondrian{
+  height: 360px;
+  border-radius: 20px;
+  display: block;
+  margin:30px auto 0 auto ;
+}
+
+
+img:hover {
+  height: 380px;
+  width: 380px;
+  box-shadow: #11999e;
+}
+
+.bootstrap:hover{
+
+   height: 380px;
+  width: 400px;
+}
